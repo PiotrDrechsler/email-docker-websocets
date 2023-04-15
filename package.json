@@ -1,0 +1,31 @@
+{
+  "name": "email-docker-websocets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sender.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon",
+    "start:dev": "cross-env NODE_ENV=development nodemon ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrDrechsler/email-docker-websocets.git"
+  },
+  "author": "Piotr_Drechsler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrDrechsler/email-docker-websocets/issues"
+  },
+  "homepage": "https://github.com/PiotrDrechsler/email-docker-websocets#readme",
+  "keywords": [],
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
